@@ -38,3 +38,5 @@
 | M-05 | 25/11/2026 15:20 | Merge del branch `v2-grafica` su `main` | [OK] | Merge commit `0a335b4` su `main` (zero conflitti, working tree pulita) |
 | M-06 | 25/11/2026 16:48 | Prima esecuzione workflow GitHub Pages (`45647528373`) | [FALLITO] | Step `Configura GitHub Pages`: HTTP 404 (`Get Pages site failed`) perché il sito Pages non era ancora inizializzato; test, build e Playwright E2E superati |
 | M-07 | 25/11/2026 16:56 | Aggiunto `enablement: true` a `actions/configure-pages@v5` in `.github/workflows/deploy.yml` | [OK] | `.github/workflows/deploy.yml`, `Registro_Operazioni.md`, `Stato_di_progetto.md` |
+| F6-02 | 25/11/2026 17:19 | Tentativi deploy GitHub Pages durante disservizio piattaforma GitHub (`45651040365`) | [FALLITO] | `HTTP 502/500 Server Error` su `actions/deploy-pages@v4` per outage parziale di GitHub Actions/Pages (`githubstatus.com`) |
+| F6-03 | 25/11/2026 18:21 | Deploy GitHub Pages completato, installazione PWA e collaudo su Google Pixel 7 | [OK] | Workflow GitHub Actions #2 riuscito (`https://yanofred.github.io/ricette-pwa/`); app installata su Pixel 7 e testata dal vivo con esito positivo |
