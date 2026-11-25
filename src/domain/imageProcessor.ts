@@ -1,6 +1,6 @@
 export const MAX_SOURCE_IMAGE_BYTES = 15 * 1024 * 1024; // 15 MB
-export const TARGET_MAX_DIMENSION = 320;
-export const TARGET_IMAGE_QUALITY = 0.82;
+export const TARGET_MAX_DIMENSION = 640;
+export const TARGET_IMAGE_QUALITY = 0.9;
 export const MAX_STORED_DATA_URL_LENGTH = 500_000;
 
 const ALLOWED_IMAGE_MIME_TYPES = new Set([
