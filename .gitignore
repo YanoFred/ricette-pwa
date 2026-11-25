@@ -1,0 +1,32 @@
+# Dipendenze e build
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Variabili d'ambiente e segreti
+.env
+.env.*
+
+# Test e report
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Privacy: immagini di riferimento personali e backup esportati nella root
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+local_references/
+backup-*.json
+ricette-backup*.json
+
+# OS e editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+*.log
+npm-debug.log*

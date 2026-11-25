@@ -1,0 +1,31 @@
+{
+  "app": "ricette-pwa",
+  "schemaVersion": 1,
+  "exportedAt": "2026-11-25T10:00:00.000Z",
+  "state": {
+    "schemaVersion": 1,
+    "activeProfileId": "p-imp",
+    "profiles": [
+      {
+        "id": "p-imp",
+        "label": "Profilo Importato",
+        "doctorName": "Dott. Test",
+        "doctorEmail": "dott.import@example.test",
+        "emailSubject": "Ricette",
+        "emailOpening": "Buongiorno Dott. Test, richiedo:",
+        "emailClosing": "Grazie mille\nSaluti",
+        "medications": [
+          {
+            "id": "m-imp",
+            "name": "Farmaco Backup 10 mg",
+            "order": 0,
+            "icon": "capsule",
+            "color": "purple"
+          }
+        ],
+        "createdAt": "2026-11-25T10:00:00.000Z",
+        "updatedAt": "2026-11-25T10:00:00.000Z"
+      }
+    ]
+  }
+}
