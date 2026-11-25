@@ -13,10 +13,10 @@
 
 ## Ultime Operazioni Recenti
 
+- **M-07** (`25/11/2026 16:56`) `[OK]`: Aggiunto `enablement: true` a `actions/configure-pages@v5` in `.github/workflows/deploy.yml` per inizializzare automaticamente GitHub Pages al deploy.
+- **M-06** (`25/11/2026 16:48`) `[FALLITO]`: Prima run GitHub Actions (`45647528373`) bloccata a `Configura GitHub Pages` (404 sito non inizializzato; build e test tutti verdi).
 - **M-05** (`25/11/2026 15:20`) `[OK]`: Merge completato del branch `v2-grafica` su `main` (`0a335b4`).
 - **M-04** (`25/11/2026 14:47`) `[OK]`: Salvato commit delle modifiche grafiche e leggibilità Pixel 7 sul branch `v2-grafica`.
 - **M-03** (`25/11/2026 13:57`) `[OK]`: Restyling card farmaci su `v2-grafica` (`136×74px`, `object-fit: contain`, compressione `640px`) e verifica completa (`typecheck`, `lint`, Vitest 19/19, build, Playwright Pixel 7 2/2).
-- **M-02** (`25/11/2026 13:53`) `[OK]`: Generato logo grafico pulito `local_references/bisoprololo_2_5mg_logo.png` (escluso da Git).
-- **M-01** (`25/11/2026 13:51`) `[OK]`: Salvato primo commit `07461b0` su `main` ("Primo commit app Ricette v1.0"), applicato tag `v1.0` e creato branch `v2-grafica`.
 
 Registro completo append-only: [Registro_Operazioni.md](file:///d:/Progetto%20Ricette/Registro_Operazioni.md)
