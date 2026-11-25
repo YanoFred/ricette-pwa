@@ -35,3 +35,4 @@
 | M-02 | 25/11/2026 13:53 | Generazione logo grafico pulito stile etichetta per test caricamento Galleria (locale) | [OK] | `local_references/bisoprololo_2_5mg_logo.png` (`1120x600`, escluso da Git) |
 | M-03 | 25/11/2026 13:57 | Restyling card farmaci per leggibilità Pixel 7 su `v2-grafica` e verifica completa | [OK] | `src/styles/global.css`, `src/components/MedicationVisualBadge.tsx`, `src/domain/imageProcessor.ts` (`640px`, `object-fit: contain`, `136x74px`); `typecheck`, `lint`, Vitest 19/19, build e Playwright Pixel 7 2/2 verdi |
 | M-04 | 25/11/2026 14:47 | Commit modifiche grafiche e leggibilità Pixel 7 sul branch `v2-grafica` | [OK] | `src/styles/global.css`, `src/components/MedicationVisualBadge.tsx`, `src/domain/imageProcessor.ts`, `Stato_di_progetto.md`, `Registro_Operazioni.md` |
+| M-05 | 25/11/2026 15:20 | Merge del branch `v2-grafica` su `main` | [OK] | Merge commit `0a335b4` su `main` (zero conflitti, working tree pulita) |
