@@ -8,14 +8,15 @@
 | F3 | Interfaccia Material You & Flussi Pixel 7 | Completata | 25/11/2026 11:43 | UI Material You light/dark automatico, profili con modello email, farmaci con foto/icona/zoom (senza confezioni), nota libera e anteprima live |
 | F4 | PWA Offline, Accessibilità & Ottimizzazione Pixel 7 | Completata | 25/11/2026 11:45 | Manifest `standalone`, Workbox precache 14 asset (300 KiB), `PwaUpdateBanner`, target touch ≥ 48px, `modern-web-guidance` applicata |
 | F5 | Test E2E Pixel 7, Code Review & Bug Fixing | Completata | 25/11/2026 12:07 | Code review indipendente `reviewer-fixer` (17 fix applicati); `typecheck`, `lint`, Vitest **19/19** e Playwright Pixel 7 **2/2** verdi |
-| F6 | Build Locale, Guida Pixel 7 & Scelta Hosting | Completata | 25/11/2026 12:08 | Build pronta in `dist/`, guida multi-opzione `docs/Guida_Installazione_Pixel7.md` (Netlify Drop, Cloudflare, GitHub Pages, USB), walkthrough consegnato |
+| F6 | Build Locale, Guida Pixel 7 & Scelta Hosting | Completata | 25/11/2026 12:08 | Build pronta in `dist/`, guida multi-opzione `docs/Guida_Installazione_Pixel7.md`, commit `v1.0` + tag `v1.0` su `main` |
+| v2-grafica | Miglioramento Grafica & Leggibilità Card Farmaci Pixel 7 | Completata | 25/11/2026 13:57 | Branch `v2-grafica`: badge orizzontale nitido `136×74px` (`object-fit: contain`), compressione `640px`, nome farmaco più leggibile; tutti i test verdi |
 
 ## Ultime Operazioni Recenti
 
+- **M-04** (`25/11/2026 14:47`) `[OK]`: Salvato commit delle modifiche grafiche e leggibilità Pixel 7 sul branch `v2-grafica`.
+- **M-03** (`25/11/2026 13:57`) `[OK]`: Restyling card farmaci su `v2-grafica` (`136×74px`, `object-fit: contain`, compressione `640px`) e verifica completa (`typecheck`, `lint`, Vitest 19/19, build, Playwright Pixel 7 2/2).
+- **M-02** (`25/11/2026 13:53`) `[OK]`: Generato logo grafico pulito `local_references/bisoprololo_2_5mg_logo.png` (escluso da Git).
+- **M-01** (`25/11/2026 13:51`) `[OK]`: Salvato primo commit `07461b0` su `main` ("Primo commit app Ricette v1.0"), applicato tag `v1.0` e creato branch `v2-grafica`.
 - **F6-01** (`25/11/2026 12:08`) `[OK]`: Guida installazione Pixel 7, verifica privacy Git (5 immagini personali ignorate), cattura screenshot reali Pixel 7 e walkthrough finale.
-- **F5-08** (`25/11/2026 12:07`) `[OK]`: Pipeline completa post-fix verde (`typecheck`, `eslint`, Vitest 19/19, build PWA 300 KiB, Playwright Pixel 7 2/2).
-- **F5-07** (`25/11/2026 12:02`) `[OK]`: Applicati tutti i 17 fix della code review indipendente ed estesi test unitari ed E2E (injection `mailto:`, dedup ID, dark mode, backup).
-- **F5-06** (`25/11/2026 11:57`) `[OK]`: Code review indipendente eseguita dal subagente `reviewer-fixer` sui 5 assi di qualità.
-- **F5-05** (`25/11/2026 11:57`) `[OK]`: Prima suite E2E Playwright Pixel 7 (`412×915`) superata con successo.
 
 Registro completo append-only: [Registro_Operazioni.md](file:///d:/Progetto%20Ricette/Registro_Operazioni.md)

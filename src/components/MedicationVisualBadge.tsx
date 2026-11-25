@@ -101,11 +101,12 @@ export function MedicationVisualBadge({
   onZoom,
 }: MedicationVisualBadgeProps) {
   if (photoDataUrl) {
+    const sizeClass = size === 'sm' ? 'med-visual-photo-btn--sm' : '';
     if (onZoom) {
       return (
         <button
           type="button"
-          className="med-visual-photo-btn"
+          className={`med-visual-photo-btn ${sizeClass}`}
           aria-label={`Ingrandisci foto di ${name}`}
           onClick={(e) => {
             e.stopPropagation();
@@ -117,21 +118,12 @@ export function MedicationVisualBadge({
             alt={`Confezione ${name}`}
             className="med-visual-photo-img"
           />
-          <span className="med-visual-zoom-dot" aria-hidden="true">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
-              <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2.5" />
-              <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
-            </svg>
-          </span>
         </button>
       );
     }
 
     return (
-      <div
-        className="med-visual-photo-btn"
-        style={size === 'sm' ? { width: 44, height: 44, borderRadius: 12 } : undefined}
-      >
+      <div className={`med-visual-photo-btn ${sizeClass}`}>
         <img
           src={photoDataUrl}
           alt={`Confezione ${name}`}
@@ -146,7 +138,7 @@ export function MedicationVisualBadge({
       className={`med-visual-icon med-color-${color} ${size === 'sm' ? 'med-visual-icon--sm' : ''}`}
       aria-hidden="true"
     >
-      <MedicationIconSvg icon={icon} size={size === 'sm' ? 22 : 26} />
+      <MedicationIconSvg icon={icon} size={size === 'sm' ? 22 : 28} />
     </div>
   );
 }
